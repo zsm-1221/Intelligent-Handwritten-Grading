@@ -1,0 +1,9 @@
+{
+  "pretrained": "data/pretrained/trocr",
+  "line_batch_size": 8,
+  "max_new_tokens": 96,
+  "num_beams": 2,
+  "max_lines": 40,
+  "warning_signal_threshold": 0.55,
+  "warning_threshold_note": "Heuristic OCR diagnostic, not correctness probability; image grades always request teacher review."
+}

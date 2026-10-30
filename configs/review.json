@@ -1,0 +1,5 @@
+{
+  "target_exact": 0.85,
+  "target_within_one": 0.98,
+  "minimum_validation_accepted": 30
+}

@@ -1,0 +1,74 @@
+{
+  "3": {
+    "threshold": 0.8608012199401855,
+    "target_exact": 0.85,
+    "target_within_one": 0.98,
+    "minimum_validation_accepted": 30,
+    "target_met": true,
+    "validation_accepted": {
+      "threshold": 0.8608012199401855,
+      "coverage": 0.2077562326869806,
+      "n": 75,
+      "qwk": 0.789272030651341,
+      "mae": 0.14666666666666667,
+      "rmse": 0.38297084310253526,
+      "accuracy": 0.8533333333333334,
+      "within_one": 1.0,
+      "confusion_matrix": [
+        [
+          21,
+          2,
+          0
+        ],
+        [
+          5,
+          39,
+          0
+        ],
+        [
+          0,
+          4,
+          4
+        ]
+      ]
+    },
+    "policy": "Validation empirical target; no correctness guarantee. If no threshold qualifies, review all.",
+    "confidence_meaning": "Model ranking signal, not predicted probability of grading correctness."
+  },
+  "4": {
+    "threshold": 0.6016493475801518,
+    "target_exact": 0.85,
+    "target_within_one": 0.98,
+    "minimum_validation_accepted": 30,
+    "target_met": true,
+    "validation_accepted": {
+      "threshold": 0.6016493475801518,
+      "coverage": 0.6054216867469879,
+      "n": 201,
+      "qwk": 0.724073380756271,
+      "mae": 0.15422885572139303,
+      "rmse": 0.4051902077760665,
+      "accuracy": 0.8507462686567164,
+      "within_one": 0.9950248756218906,
+      "confusion_matrix": [
+        [
+          81,
+          20,
+          0
+        ],
+        [
+          6,
+          87,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    "policy": "Validation empirical target; no correctness guarantee. If no threshold qualifies, review all.",
+    "confidence_meaning": "Model ranking signal, not predicted probability of grading correctness."
+  }
+}

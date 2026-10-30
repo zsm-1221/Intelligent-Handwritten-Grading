@@ -1,0 +1,37 @@
+{
+  "prompt": 3,
+  "task": "classification",
+  "stage": "repeat_noise",
+  "config": {
+    "pretrained": "data/pretrained/distilbert",
+    "seed": 2026,
+    "learning_rate": 2.9360158651115808e-05,
+    "batch_size": 8,
+    "epochs": 5,
+    "weight_decay": 0.04622589001020832,
+    "dropout": 0.14246782213565523,
+    "max_length": 256,
+    "patience": 2,
+    "warmup_ratio": 0.1,
+    "noise_probability": 0.035,
+    "label_smoothing": 0.0,
+    "num_workers": 0,
+    "threads": 4,
+    "search_trials_per_task_prompt": 3,
+    "repeat_seeds": [
+      42,
+      123,
+      2026
+    ]
+  },
+  "device": "cuda",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "python": "3.12.4",
+  "split_manifest_sha256": "ca4614440da64934e1a97be58038299d057fea3c114d5ffc6ae0c7c9ccceaa61",
+  "train_rows": 1447,
+  "validation_rows": 361,
+  "effective_train_rows": 1447,
+  "trainable_parameters": 66955779,
+  "mixed_precision": "torch.bfloat16"
+}

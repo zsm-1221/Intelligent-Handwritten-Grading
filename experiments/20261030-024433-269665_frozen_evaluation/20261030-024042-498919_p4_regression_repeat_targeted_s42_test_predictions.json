@@ -1,0 +1,2368 @@
+{
+  "ids": [
+    9808,
+    9810,
+    9812,
+    9815,
+    9816,
+    9817,
+    9818,
+    9820,
+    9824,
+    9826,
+    9829,
+    9832,
+    9834,
+    9835,
+    9837,
+    9838,
+    9842,
+    9845,
+    9848,
+    9850,
+    9851,
+    9855,
+    9856,
+    9860,
+    9861,
+    9862,
+    9864,
+    9866,
+    9867,
+    9871,
+    9872,
+    9874,
+    9875,
+    9876,
+    9879,
+    9880,
+    9885,
+    9890,
+    9892,
+    9893,
+    9894,
+    9895,
+    9896,
+    9897,
+    9898,
+    9900,
+    9903,
+    9904,
+    9905,
+    9908,
+    9911,
+    9914,
+    9920,
+    9921,
+    9924,
+    9926,
+    9928,
+    9929,
+    9930,
+    9932,
+    9933,
+    9936,
+    9938,
+    9939,
+    9940,
+    9941,
+    9943,
+    9945,
+    9947,
+    9949,
+    9950,
+    9951,
+    9952,
+    9960,
+    9961,
+    9965,
+    9969,
+    9970,
+    9972,
+    9975,
+    9976,
+    9977,
+    9980,
+    9981,
+    9983,
+    9985,
+    9987,
+    9988,
+    9990,
+    9995,
+    9996,
+    9998,
+    10002,
+    10003,
+    10004,
+    10006,
+    10009,
+    10012,
+    10013,
+    10015,
+    10016,
+    10018,
+    10019,
+    10020,
+    10022,
+    10023,
+    10026,
+    10027,
+    10032,
+    10034,
+    10035,
+    10040,
+    10041,
+    10042,
+    10044,
+    10050,
+    10051,
+    10052,
+    10055,
+    10056,
+    10057,
+    10058,
+    10059,
+    10060,
+    10061,
+    10062,
+    10064,
+    10065,
+    10071,
+    10075,
+    10077,
+    10078,
+    10079,
+    10080,
+    10082,
+    10084,
+    10086,
+    10088,
+    10089,
+    10090,
+    10092,
+    10096,
+    10098,
+    10099,
+    10100,
+    10102,
+    10103,
+    10104,
+    10106,
+    10107,
+    10110,
+    10111,
+    10113,
+    10115,
+    10116,
+    10117,
+    10118,
+    10119,
+    10120,
+    10127,
+    10128,
+    10131,
+    10133,
+    10136,
+    10138,
+    10141,
+    10143,
+    10144,
+    10145,
+    10146,
+    10147,
+    10148,
+    10149,
+    10152,
+    10153,
+    10154,
+    10155,
+    10157,
+    10158,
+    10159,
+    10160,
+    10162,
+    10164,
+    10169,
+    10170,
+    10172,
+    10174,
+    10176,
+    10180,
+    10181,
+    10183,
+    10186,
+    10188,
+    10189,
+    10191,
+    10192,
+    10193,
+    10194,
+    10196,
+    10198,
+    10200,
+    10202,
+    10204,
+    10206,
+    10207,
+    10208,
+    10214,
+    10215,
+    10217,
+    10222,
+    10224,
+    10225,
+    10228,
+    10232,
+    10239,
+    10240,
+    10241,
+    10243,
+    10246,
+    10247,
+    10248,
+    10249,
+    10250,
+    10252,
+    10253,
+    10255,
+    10256,
+    10258,
+    10262,
+    10266,
+    10267,
+    10268,
+    10270,
+    10271,
+    10272,
+    10273,
+    10274,
+    10276,
+    10278,
+    10281,
+    10282,
+    10284,
+    10285,
+    10290,
+    10292,
+    10295,
+    10297,
+    10298,
+    10299,
+    10301,
+    10303,
+    10304,
+    10305,
+    10307,
+    10308,
+    10310,
+    10313,
+    10315,
+    10318,
+    10320,
+    10321,
+    10325,
+    10332,
+    10333,
+    10335,
+    10337,
+    10338,
+    10339,
+    10340,
+    10343,
+    10344,
+    10346,
+    10347,
+    10348,
+    10349,
+    10351,
+    10353,
+    10354,
+    10355,
+    10358,
+    10359,
+    10362,
+    10364,
+    10365,
+    10367,
+    10368,
+    10370,
+    10373,
+    10374,
+    10375,
+    10376,
+    10377,
+    10378,
+    10379,
+    10384
+  ],
+  "true": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2,
+    1,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    2,
+    2,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0
+  ],
+  "predictions": [
+    {
+      "score": 1,
+      "confidence": 0.7505420139980664,
+      "raw": 1.143479824066162,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.780893610577298,
+      "raw": 1.1236581802368164,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8023791721065158,
+      "raw": -0.11008699983358383,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.4587678160406596,
+      "raw": 1.6103944778442383,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.9516352851019954,
+      "raw": 1.9752132892608643,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6208332966124972,
+      "raw": 1.2383463382720947,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.38758418073604445,
+      "raw": 0.5260888934135437,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6068734779406068,
+      "raw": 1.2497174739837646,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8491250755745305,
+      "raw": 0.08177439123392105,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.833697007942283,
+      "raw": 1.090942621231079,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8312442375866436,
+      "raw": 1.0924158096313477,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5347382024799957,
+      "raw": 1.3129889965057373,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.500807608060264,
+      "raw": 0.3457666337490082,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5830753569811414,
+      "raw": 0.7302805781364441,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.4165977820042351,
+      "raw": 0.4378170371055603,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6050619203328335,
+      "raw": 1.251212239265442,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7137758250089495,
+      "raw": 1.168593168258667,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.883846377478201,
+      "raw": -0.061736006289720535,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.48212043601701643,
+      "raw": 1.3647806644439697,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.946971619106232,
+      "raw": 0.9727569222450256,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9146087422758058,
+      "raw": 1.044629454612732,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8186018673724672,
+      "raw": 0.10007871687412262,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7126936371280251,
+      "raw": 1.1693518161773682,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9537089001235084,
+      "raw": 0.023698395118117332,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5256574538031341,
+      "raw": 0.32155275344848633,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9177922723105089,
+      "raw": 1.0428920984268188,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.980733468513791,
+      "raw": 0.009727274999022484,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9569872832592066,
+      "raw": -0.0219825878739357,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6577734301976866,
+      "raw": 0.20944736897945404,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.4069300106537093,
+      "raw": 0.44955703616142273,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.6325871757528179,
+      "raw": 1.771031379699707,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8570719093672491,
+      "raw": 1.0771167278289795,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9449430560806727,
+      "raw": 1.0283153057098389,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4641408774028065,
+      "raw": 1.3837835788726807,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.40677599681757176,
+      "raw": 0.550253689289093,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.850351056310651,
+      "raw": 0.0810530036687851,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8624346345399375,
+      "raw": 0.07399795949459076,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7626006796965767,
+      "raw": 0.1355103701353073,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8315935112766776,
+      "raw": 1.0922057628631592,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.471160769460948,
+      "raw": 0.37627795338630676,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4018519590411783,
+      "raw": 0.54416424036026,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4795714781983131,
+      "raw": 1.3674311637878418,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5603310845699344,
+      "raw": 1.7103862762451172,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.868736488397968,
+      "raw": -0.07035771757364273,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8658124563510986,
+      "raw": 0.9279565215110779,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9202586038216463,
+      "raw": 0.9584497213363647,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8183526855489422,
+      "raw": 0.10023093968629837,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7988918385606827,
+      "raw": 0.11226485669612885,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9373176671634557,
+      "raw": 1.0323665142059326,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.42243231525067143,
+      "raw": 1.4308630228042603,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9777744860807056,
+      "raw": 0.011238111183047295,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6865902692050098,
+      "raw": 1.1880087852478027,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8315118291430385,
+      "raw": 1.092254877090454,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8271843753604436,
+      "raw": 0.9051361680030823,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5130480278908041,
+      "raw": 1.3336929082870483,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5395938289781929,
+      "raw": 1.691530704498291,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9635481321215046,
+      "raw": -0.018566418439149857,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8166006302589767,
+      "raw": 0.8986974358558655,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8665991925679861,
+      "raw": 0.9284106492996216,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.9919132916485482,
+      "raw": 2.0040597915649414,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8352693839686237,
+      "raw": -0.09000049531459808,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5239852558288943,
+      "raw": 1.323145866394043,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.842789696066289,
+      "raw": -0.08551891148090363,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.3959692738320495,
+      "raw": 0.536790668964386,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9628694072481649,
+      "raw": -0.01891874335706234,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.43440840765693345,
+      "raw": 0.5831149220466614,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4337725847679174,
+      "raw": 1.4176174402236938,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9911278961292035,
+      "raw": -0.004455847665667534,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8057724099700311,
+      "raw": 0.8920230269432068,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.44580865626505894,
+      "raw": 0.40393272042274475,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.6501485589644034,
+      "raw": 2.2152771949768066,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9807990805645016,
+      "raw": 0.009693825617432594,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9941510024502089,
+      "raw": 0.9970669150352478,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5178235707346905,
+      "raw": 0.3290603458881378,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.947442615963802,
+      "raw": -0.026994453743100166,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8654686193004087,
+      "raw": 0.9277579188346863,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5001084912698174,
+      "raw": 1.3464651107788086,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.3766722804674194,
+      "raw": 0.5118101239204407,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.529163699979375,
+      "raw": 1.3182287216186523,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.679286326961638,
+      "raw": 0.8066437244415283,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4832129738349726,
+      "raw": 1.3636488914489746,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7629640616773783,
+      "raw": 0.13527217507362366,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6047413197588445,
+      "raw": 0.2514772415161133,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.449929358764415,
+      "raw": 0.6006676554679871,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9265842812821686,
+      "raw": -0.038125135004520416,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5387091911789491,
+      "raw": 0.30928969383239746,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9276009851120584,
+      "raw": 0.03757680580019951,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6145976222944923,
+      "raw": 0.24339374899864197,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.43542516147085614,
+      "raw": 1.5842838287353516,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.4639854540653538,
+      "raw": 0.3839510381221771,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.40196239405448614,
+      "raw": 0.5443016290664673,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.8316204760725363,
+      "raw": 1.9078104496002197,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8891815325616316,
+      "raw": -0.05872693285346031,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.582342994468675,
+      "raw": 1.2703478336334229,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.44950063798384815,
+      "raw": 1.3998090028762817,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9609431260943507,
+      "raw": -0.019920026883482933,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.40779938537454696,
+      "raw": 0.5515100359916687,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5606710491195566,
+      "raw": 1.2893104553222656,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7330650998362952,
+      "raw": 0.1552603840827942,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.670598180877369,
+      "raw": 0.19979257881641388,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9620210579188098,
+      "raw": 0.9806405305862427,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.44088607383352313,
+      "raw": 1.4094843864440918,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7691349463203484,
+      "raw": 0.868755578994751,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6463770478129048,
+      "raw": 1.2181861400604248,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9081816670879478,
+      "raw": -0.04815542325377464,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9806377912276268,
+      "raw": 0.9902239441871643,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5559619375507582,
+      "raw": 0.7064722776412964,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7292113969560668,
+      "raw": 1.157895803451538,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7750469262071881,
+      "raw": 0.12741585075855255,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.41421223030511595,
+      "raw": 0.4406884014606476,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7306450428583524,
+      "raw": 1.1569137573242188,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5636503180298086,
+      "raw": 0.7133393883705139,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5157968359688492,
+      "raw": 0.33102115988731384,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.49673353297444367,
+      "raw": 1.3498507738113403,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.7992400709870795,
+      "raw": 1.8879530429840088,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.8091893184088961,
+      "raw": 2.105861186981201,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.38302807108544723,
+      "raw": 0.479823499917984,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7309886447502121,
+      "raw": 1.1566786766052246,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6470555572457531,
+      "raw": 0.7823384404182434,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.3931646671924899,
+      "raw": 1.5332366228103638,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.595087099340851,
+      "raw": 0.25952374935150146,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6906758464505803,
+      "raw": 0.1850423365831375,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5048085113682512,
+      "raw": 1.3417880535125732,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7096693047977105,
+      "raw": 0.8285219073295593,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6421681662473563,
+      "raw": 0.778547465801239,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7965649919066115,
+      "raw": 1.1137232780456543,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9769793108018325,
+      "raw": -0.01164490170776844,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7873225517789022,
+      "raw": 0.8804413676261902,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.44956590882807484,
+      "raw": 1.3997364044189453,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7894273275678159,
+      "raw": 0.11822374910116196,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.9048538999620064,
+      "raw": 1.9500091075897217,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4069737931371805,
+      "raw": 0.5504967570304871,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.916474071156285,
+      "raw": 0.9563892483711243,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6421915151571388,
+      "raw": 1.2214343547821045,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.48717110434527255,
+      "raw": 0.3595699369907379,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8175619070417544,
+      "raw": 0.8992856740951538,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.831088169897842,
+      "raw": -0.0925096943974495,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.3902176150007819,
+      "raw": 0.4705253541469574,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.4983685455541259,
+      "raw": 1.651792287826538,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9875841107588529,
+      "raw": 1.00624680519104,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.6281904226388122,
+      "raw": 1.7675440311431885,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.49883596611457187,
+      "raw": 1.3477389812469482,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8625785037389834,
+      "raw": -0.0739145576953888,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6072209416793253,
+      "raw": 0.2494312822818756,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6207686900333506,
+      "raw": 0.7616016268730164,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9543367305258232,
+      "raw": 0.023369351401925087,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.615579599125116,
+      "raw": 0.24259550869464874,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9853653622176823,
+      "raw": 0.007371390238404274,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7468447679394022,
+      "raw": 0.14594896137714386,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8819644790005416,
+      "raw": -0.06280174851417542,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8764005706009553,
+      "raw": 0.934033989906311,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9010430245574758,
+      "raw": 0.9478988647460938,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.990484710092364,
+      "raw": 0.0047804247587919235,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5944648562338922,
+      "raw": 1.2600468397140503,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5868351594453306,
+      "raw": 0.7334943413734436,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8763489614264313,
+      "raw": 0.934004545211792,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5287576757972839,
+      "raw": 0.6813874840736389,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8657683855696685,
+      "raw": 1.0720689296722412,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6548271631721373,
+      "raw": 1.211691975593567,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.710531957709609,
+      "raw": 0.17087067663669586,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.6608972392601875,
+      "raw": 1.792921543121338,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.43466280079240927,
+      "raw": 1.4165923595428467,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.875328085358253,
+      "raw": 0.06657825410366058,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5292325891649295,
+      "raw": 1.3181636333465576,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9336049735528286,
+      "raw": -0.034350935369729996,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6642077802543468,
+      "raw": 0.7954198718070984,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9886045440401802,
+      "raw": 0.005730440840125084,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.4172496128178532,
+      "raw": 1.562964677810669,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5026611312628775,
+      "raw": 1.3439195156097412,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8072393593608685,
+      "raw": 0.8929324746131897,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.3832940216582875,
+      "raw": 1.4794764518737793,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8422924490744214,
+      "raw": 1.0858139991760254,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.3894235087119151,
+      "raw": 1.4715439081192017,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8902841582478159,
+      "raw": 0.058107294142246246,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.47050567518692316,
+      "raw": 1.3769736289978027,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6486212068895706,
+      "raw": 1.216453194618225,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8940358947069557,
+      "raw": 0.05600467696785927,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8750159340900886,
+      "raw": 0.06675659120082855,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6192504131220924,
+      "raw": 0.7603772282600403,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8711697392852413,
+      "raw": 0.06895922124385834,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.3876245417124095,
+      "raw": 0.473859041929245,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7820487773273151,
+      "raw": 1.1229190826416016,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.422708164897296,
+      "raw": 1.4305366277694702,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.46209415787716285,
+      "raw": 0.3859933018684387,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7177027103066288,
+      "raw": 1.1658499240875244,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.963198984048012,
+      "raw": 0.01874762959778309,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6109366004518378,
+      "raw": 0.7536189556121826,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9029420991263125,
+      "raw": 0.05104842409491539,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9658311319369832,
+      "raw": -0.017383135855197906,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.657647942637603,
+      "raw": 0.20954276621341705,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9410162879800613,
+      "raw": 0.9696025848388672,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5858738400430322,
+      "raw": 1.7326745986938477,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.643754086421507,
+      "raw": 0.22021923959255219,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8794730844016825,
+      "raw": -0.06421615928411484,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.49173769754623253,
+      "raw": 0.3549049198627472,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.7589225558624129,
+      "raw": 1.862072229385376,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.38914692649478005,
+      "raw": 0.528100848197937,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9507190795307499,
+      "raw": 0.025268327444791794,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.40614592636301394,
+      "raw": 0.4505213797092438,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9842123797271994,
+      "raw": -0.007956786081194878,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5595210262833337,
+      "raw": 1.709662914276123,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.7700920308423789,
+      "raw": 1.8693773746490479,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9570041889014343,
+      "raw": -0.021973755210638046,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9676443391515103,
+      "raw": 0.9835546612739563,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8074727639204032,
+      "raw": 0.10692297667264938,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8108944057008542,
+      "raw": 0.10480871796607971,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.904282136190275,
+      "raw": -0.050306934863328934,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4887518311248471,
+      "raw": 1.357950210571289,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.4597482396865751,
+      "raw": 1.611461877822876,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6300087383605536,
+      "raw": 0.7689892053604126,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.953113924270714,
+      "raw": 0.975989580154419,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9464435748851089,
+      "raw": 0.02752196229994297,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.8496559187979079,
+      "raw": 2.0814619064331055,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9234274536953619,
+      "raw": 1.039831519126892,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.373915995679457,
+      "raw": 1.4918620586395264,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9160379308404059,
+      "raw": 1.0438487529754639,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9644162226912665,
+      "raw": -0.01811615563929081,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.39240818226479063,
+      "raw": 1.4677263498306274,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6524079900088013,
+      "raw": 1.2135425806045532,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9720771042453229,
+      "raw": 0.014160076156258583,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.48307497561696394,
+      "raw": 0.6362082958221436,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7629366400204411,
+      "raw": 1.1352901458740234,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.618814896786047,
+      "raw": 0.23997454345226288,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5587977313607945,
+      "raw": 0.7090161442756653,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.44237117005648396,
+      "raw": 0.5921970009803772,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.41694007113709375,
+      "raw": 0.43740639090538025,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9610802096907624,
+      "raw": 1.0198487043380737,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.4775142612689747,
+      "raw": 0.36958062648773193,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7878385777422334,
+      "raw": 0.11923103034496307,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.38855805803276283,
+      "raw": 0.47265633940696716,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.423724960831153,
+      "raw": 1.429335355758667,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8169114920709489,
+      "raw": 0.1011122614145279,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4922898825261605,
+      "raw": 0.6456562280654907,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8341722878936106,
+      "raw": 0.09065765887498856,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8463496670084067,
+      "raw": -0.08341134339570999,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.3973061966380537,
+      "raw": 1.4615240097045898,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5123477339437962,
+      "raw": 1.3343758583068848,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5508116549171441,
+      "raw": 1.701818823814392,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8561139540541517,
+      "raw": -0.07767589390277863,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4514787146894952,
+      "raw": 1.397613525390625,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9889397502464896,
+      "raw": 0.9944390654563904,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7608386957464532,
+      "raw": 0.8633330464363098,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9756140146425766,
+      "raw": 0.012344123795628548,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6825043287681258,
+      "raw": 0.19099320471286774,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.462323096552902,
+      "raw": 1.614254355430603,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9753176997015508,
+      "raw": 0.012496007606387138,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.7142626983994692,
+      "raw": 2.1682522296905518,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6208353688706497,
+      "raw": 1.238344669342041,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5331361581625165,
+      "raw": 0.3144892156124115,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7258252363587491,
+      "raw": 0.16022300720214844,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.8538100925432095,
+      "raw": 1.9209767580032349,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.7698283055578439,
+      "raw": 0.13079388439655304,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5227976656125972,
+      "raw": 1.3242803812026978,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8988985148896333,
+      "raw": 0.053292568773031235,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6566833393226561,
+      "raw": 0.21027667820453644,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.4741334652536938,
+      "raw": 0.37313321232795715,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8247764268184603,
+      "raw": 0.9036785364151001,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.6755089155228693,
+      "raw": 1.196144461631775,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7029119214950024,
+      "raw": 0.823738157749176,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4680397163412081,
+      "raw": 0.6203989386558533,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4660544676462322,
+      "raw": 1.3817263841629028,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8839555663187054,
+      "raw": -0.06167424097657204,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5509597094886595,
+      "raw": 0.2980467975139618,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8290055233378093,
+      "raw": -0.09376423060894012,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9589776136317903,
+      "raw": 0.02094377391040325,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5965121412408432,
+      "raw": 0.258327841758728,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.780155687741918,
+      "raw": 0.12413088977336884,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8343171239773274,
+      "raw": 0.0905708521604538,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.5054283324188177,
+      "raw": 0.34117451310157776,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.382428310981548,
+      "raw": 0.5193929672241211,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9157401492718049,
+      "raw": 0.04401131719350815,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.38632252305080567,
+      "raw": 0.524458646774292,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5086918456540841,
+      "raw": 1.337956428527832,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5828055198780123,
+      "raw": 1.7300491333007812,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7112935189822339,
+      "raw": 1.170335054397583,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5954255079583053,
+      "raw": 0.7407605051994324,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7978451980536412,
+      "raw": 0.887079656124115,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.9476133779133108,
+      "raw": 1.0269043445587158,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.962794664908771,
+      "raw": -0.018957557156682014,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.8855490566917156,
+      "raw": 0.060773711651563644,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.5523405425748454,
+      "raw": 1.7032047510147095,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9819767366010362,
+      "raw": 0.009093830361962318,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6663933837089794,
+      "raw": 0.2029375582933426,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.44767254734707135,
+      "raw": 0.40184661746025085,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.9545697513354399,
+      "raw": -0.023247281089425087,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.7237692023818881,
+      "raw": 1.1616413593292236,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.5512190403892603,
+      "raw": 1.297811508178711,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.4267201474454727,
+      "raw": 0.5741865634918213,
+      "truncated": false
+    },
+    {
+      "score": 2,
+      "confidence": 0.47820456642687503,
+      "raw": 1.6311416625976562,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.6983734374039183,
+      "raw": 0.17950065433979034,
+      "truncated": false
+    },
+    {
+      "score": 0,
+      "confidence": 0.3961045105324213,
+      "raw": 0.4630385935306549,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8433276999665779,
+      "raw": 1.0851998329162598,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.41973843675318634,
+      "raw": 1.4340617656707764,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.8441023568217065,
+      "raw": 1.0847407579421997,
+      "truncated": false
+    },
+    {
+      "score": 1,
+      "confidence": 0.42240265551465944,
+      "raw": 0.569101870059967,
+      "truncated": false
+    }
+  ]
+}

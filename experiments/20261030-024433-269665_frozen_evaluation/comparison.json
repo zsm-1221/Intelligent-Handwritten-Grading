@@ -1,0 +1,1118 @@
+[
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "formal_initial",
+    "seed": 42,
+    "validation_qwk": 0.6574148715803222,
+    "run": "experiments/20261030-022236-608850_p3_classification_formal_initial_s42",
+    "n": 406,
+    "qwk": 0.7152068247197698,
+    "mae": 0.23891625615763548,
+    "rmse": 0.4938039737912401,
+    "accuracy": 0.7635467980295566,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        66,
+        29,
+        0
+      ],
+      [
+        9,
+        185,
+        31
+      ],
+      [
+        1,
+        26,
+        59
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_regression",
+    "stage": "formal_initial",
+    "seed": 42,
+    "validation_qwk": 0.6366691986327384,
+    "run": "experiments/20261030-022313-751005_p3_regression_formal_initial_s42",
+    "n": 406,
+    "qwk": 0.6746308797761509,
+    "mae": 0.2857142857142857,
+    "rmse": 0.5391107438074945,
+    "accuracy": 0.7167487684729064,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        62,
+        33,
+        0
+      ],
+      [
+        20,
+        168,
+        37
+      ],
+      [
+        1,
+        24,
+        61
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "optuna0",
+    "seed": 42,
+    "validation_qwk": 0.680824615923316,
+    "run": "experiments/20261030-022413-675560_p3_classification_optuna0_s42",
+    "n": 406,
+    "qwk": 0.6841550085046347,
+    "mae": 0.27586206896551724,
+    "rmse": 0.5391107438074945,
+    "accuracy": 0.7315270935960592,
+    "within_one": 0.9926108374384236,
+    "confusion_matrix": [
+      [
+        72,
+        21,
+        2
+      ],
+      [
+        28,
+        166,
+        31
+      ],
+      [
+        1,
+        26,
+        59
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "optuna1",
+    "seed": 42,
+    "validation_qwk": 0.6838999505082423,
+    "run": "experiments/20261030-022447-618711_p3_classification_optuna1_s42",
+    "n": 406,
+    "qwk": 0.6858574930499446,
+    "mae": 0.2684729064039409,
+    "rmse": 0.5275652785700641,
+    "accuracy": 0.7364532019704434,
+    "within_one": 0.9950738916256158,
+    "confusion_matrix": [
+      [
+        64,
+        30,
+        1
+      ],
+      [
+        16,
+        174,
+        35
+      ],
+      [
+        1,
+        24,
+        61
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_regression",
+    "stage": "optuna0",
+    "seed": 42,
+    "validation_qwk": 0.6435510887772194,
+    "run": "experiments/20261030-022539-148873_p3_regression_optuna0_s42",
+    "n": 406,
+    "qwk": 0.676406689891887,
+    "mae": 0.2955665024630542,
+    "rmse": 0.5526470114022356,
+    "accuracy": 0.7093596059113301,
+    "within_one": 0.9950738916256158,
+    "confusion_matrix": [
+      [
+        66,
+        28,
+        1
+      ],
+      [
+        20,
+        157,
+        48
+      ],
+      [
+        1,
+        20,
+        65
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_regression",
+    "stage": "optuna1",
+    "seed": 42,
+    "validation_qwk": 0.6217593380318267,
+    "run": "experiments/20261030-022613-178878_p3_regression_optuna1_s42",
+    "n": 406,
+    "qwk": 0.6636014180736475,
+    "mae": 0.2955665024630542,
+    "rmse": 0.5481720631676139,
+    "accuracy": 0.7068965517241379,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        64,
+        31,
+        0
+      ],
+      [
+        18,
+        166,
+        41
+      ],
+      [
+        1,
+        28,
+        57
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_regression",
+    "stage": "optuna2",
+    "seed": 42,
+    "validation_qwk": 0.6669174885562512,
+    "run": "experiments/20261030-022655-467003_p3_regression_optuna2_s42",
+    "n": 406,
+    "qwk": 0.661330685203575,
+    "mae": 0.3054187192118227,
+    "rmse": 0.5570860145311556,
+    "accuracy": 0.6970443349753694,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        63,
+        32,
+        0
+      ],
+      [
+        31,
+        159,
+        35
+      ],
+      [
+        1,
+        24,
+        61
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_clean",
+    "seed": 42,
+    "validation_qwk": 0.6838999505082423,
+    "run": "experiments/20261030-023036-732586_p3_classification_repeat_clean_s42",
+    "n": 406,
+    "qwk": 0.6858574930499446,
+    "mae": 0.2684729064039409,
+    "rmse": 0.5275652785700641,
+    "accuracy": 0.7364532019704434,
+    "within_one": 0.9950738916256158,
+    "confusion_matrix": [
+      [
+        64,
+        30,
+        1
+      ],
+      [
+        16,
+        174,
+        35
+      ],
+      [
+        1,
+        24,
+        61
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_noise",
+    "seed": 42,
+    "validation_qwk": 0.6599506212011541,
+    "run": "experiments/20261030-023110-302214_p3_classification_repeat_noise_s42",
+    "n": 406,
+    "qwk": 0.6990639427353202,
+    "mae": 0.2536945812807882,
+    "rmse": 0.5085476277156078,
+    "accuracy": 0.7487684729064039,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        67,
+        28,
+        0
+      ],
+      [
+        17,
+        181,
+        27
+      ],
+      [
+        1,
+        29,
+        56
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_clean",
+    "seed": 123,
+    "validation_qwk": 0.6589165956500797,
+    "run": "experiments/20261030-023152-978249_p3_classification_repeat_clean_s123",
+    "n": 406,
+    "qwk": 0.6733085116539148,
+    "mae": 0.28078817733990147,
+    "rmse": 0.5391107438074945,
+    "accuracy": 0.7241379310344828,
+    "within_one": 0.9950738916256158,
+    "confusion_matrix": [
+      [
+        62,
+        32,
+        1
+      ],
+      [
+        13,
+        171,
+        41
+      ],
+      [
+        1,
+        24,
+        61
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_noise",
+    "seed": 123,
+    "validation_qwk": 0.669628217349857,
+    "run": "experiments/20261030-023235-115615_p3_classification_repeat_noise_s123",
+    "n": 406,
+    "qwk": 0.6802834924697312,
+    "mae": 0.270935960591133,
+    "rmse": 0.5252257314388902,
+    "accuracy": 0.7315270935960592,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        64,
+        31,
+        0
+      ],
+      [
+        16,
+        177,
+        32
+      ],
+      [
+        1,
+        29,
+        56
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_clean",
+    "seed": 2026,
+    "validation_qwk": 0.6762820815359492,
+    "run": "experiments/20261030-023317-556363_p3_classification_repeat_clean_s2026",
+    "n": 406,
+    "qwk": 0.697557405543866,
+    "mae": 0.2660098522167488,
+    "rmse": 0.5298944964234875,
+    "accuracy": 0.7413793103448276,
+    "within_one": 0.9926108374384236,
+    "confusion_matrix": [
+      [
+        69,
+        24,
+        2
+      ],
+      [
+        17,
+        167,
+        41
+      ],
+      [
+        1,
+        20,
+        65
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_noise",
+    "seed": 2026,
+    "validation_qwk": 0.6608784764724303,
+    "run": "experiments/20261030-023359-841867_p3_classification_repeat_noise_s2026",
+    "n": 406,
+    "qwk": 0.6933071460945762,
+    "mae": 0.2660098522167488,
+    "rmse": 0.5205150916074701,
+    "accuracy": 0.7364532019704434,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        63,
+        32,
+        0
+      ],
+      [
+        17,
+        174,
+        34
+      ],
+      [
+        1,
+        23,
+        62
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_targeted",
+    "seed": 42,
+    "validation_qwk": 0.6919130818070132,
+    "run": "experiments/20261030-023817-832162_p3_classification_repeat_targeted_s42",
+    "n": 406,
+    "qwk": 0.679735396282816,
+    "mae": 0.27586206896551724,
+    "rmse": 0.5298944964234875,
+    "accuracy": 0.7266009852216748,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        68,
+        27,
+        0
+      ],
+      [
+        19,
+        173,
+        33
+      ],
+      [
+        1,
+        31,
+        54
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_targeted",
+    "seed": 123,
+    "validation_qwk": 0.6503241189181134,
+    "run": "experiments/20261030-023916-826923_p3_classification_repeat_targeted_s123",
+    "n": 406,
+    "qwk": 0.6916054579157898,
+    "mae": 0.26354679802955666,
+    "rmse": 0.5181437121146419,
+    "accuracy": 0.7389162561576355,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        65,
+        30,
+        0
+      ],
+      [
+        15,
+        177,
+        33
+      ],
+      [
+        1,
+        27,
+        58
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "distilbert_classification",
+    "stage": "repeat_targeted",
+    "seed": 2026,
+    "validation_qwk": 0.6635099362439879,
+    "run": "experiments/20261030-023959-691776_p3_classification_repeat_targeted_s2026",
+    "n": 406,
+    "qwk": 0.7039097845904518,
+    "mae": 0.26108374384236455,
+    "rmse": 0.5157614295551275,
+    "accuracy": 0.7413793103448276,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        66,
+        29,
+        0
+      ],
+      [
+        16,
+        172,
+        37
+      ],
+      [
+        1,
+        22,
+        63
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "tfidf_logistic",
+    "stage": "baseline",
+    "seed": 42,
+    "validation_qwk": 0.531670005085467,
+    "run": "experiments/20261030-021213-279475_baselines/prompt3_logistic.joblib",
+    "n": 406,
+    "qwk": 0.605728792304516,
+    "mae": 0.29310344827586204,
+    "rmse": 0.559292304411029,
+    "accuracy": 0.7167487684729064,
+    "within_one": 0.9901477832512315,
+    "confusion_matrix": [
+      [
+        61,
+        31,
+        3
+      ],
+      [
+        19,
+        189,
+        17
+      ],
+      [
+        1,
+        44,
+        41
+      ]
+    ]
+  },
+  {
+    "prompt": 3,
+    "method": "tfidf_ridge",
+    "stage": "baseline",
+    "seed": 42,
+    "validation_qwk": 0.5544432254525508,
+    "run": "experiments/20261030-021213-279475_baselines/prompt3_ridge.joblib",
+    "n": 406,
+    "qwk": 0.5832113225963884,
+    "mae": 0.2955665024630542,
+    "rmse": 0.5481720631676139,
+    "accuracy": 0.7068965517241379,
+    "within_one": 0.9975369458128078,
+    "confusion_matrix": [
+      [
+        57,
+        38,
+        0
+      ],
+      [
+        13,
+        200,
+        12
+      ],
+      [
+        1,
+        55,
+        30
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_classification",
+    "stage": "formal_initial",
+    "seed": 42,
+    "validation_qwk": 0.585,
+    "run": "experiments/20261030-022334-827920_p4_classification_formal_initial_s42",
+    "n": 295,
+    "qwk": 0.6877813758786826,
+    "mae": 0.2271186440677966,
+    "rmse": 0.4765696633943422,
+    "accuracy": 0.7728813559322034,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        96,
+        28,
+        0
+      ],
+      [
+        17,
+        122,
+        3
+      ],
+      [
+        0,
+        19,
+        10
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "formal_initial",
+    "seed": 42,
+    "validation_qwk": 0.6457150898259768,
+    "run": "experiments/20261030-022353-913925_p4_regression_formal_initial_s42",
+    "n": 295,
+    "qwk": 0.695440206481216,
+    "mae": 0.2440677966101695,
+    "rmse": 0.49403218175557095,
+    "accuracy": 0.7559322033898305,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        92,
+        32,
+        0
+      ],
+      [
+        13,
+        116,
+        13
+      ],
+      [
+        0,
+        14,
+        15
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_classification",
+    "stage": "optuna0",
+    "seed": 42,
+    "validation_qwk": 0.6002889477486155,
+    "run": "experiments/20261030-022721-405186_p4_classification_optuna0_s42",
+    "n": 295,
+    "qwk": 0.6978233034571062,
+    "mae": 0.21694915254237288,
+    "rmse": 0.46577800779166556,
+    "accuracy": 0.7830508474576271,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        99,
+        25,
+        0
+      ],
+      [
+        20,
+        122,
+        0
+      ],
+      [
+        0,
+        19,
+        10
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_classification",
+    "stage": "optuna1",
+    "seed": 42,
+    "validation_qwk": 0.6657745475974169,
+    "run": "experiments/20261030-022752-808694_p4_classification_optuna1_s42",
+    "n": 295,
+    "qwk": 0.7126264518546273,
+    "mae": 0.22033898305084745,
+    "rmse": 0.46940279403817725,
+    "accuracy": 0.7796610169491526,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        93,
+        31,
+        0
+      ],
+      [
+        11,
+        123,
+        8
+      ],
+      [
+        0,
+        15,
+        14
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_classification",
+    "stage": "optuna2",
+    "seed": 42,
+    "validation_qwk": 0.6679253764890987,
+    "run": "experiments/20261030-022831-711015_p4_classification_optuna2_s42",
+    "n": 295,
+    "qwk": 0.7077424170455318,
+    "mae": 0.24745762711864408,
+    "rmse": 0.49745113038231614,
+    "accuracy": 0.752542372881356,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        91,
+        33,
+        0
+      ],
+      [
+        10,
+        113,
+        19
+      ],
+      [
+        0,
+        11,
+        18
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "optuna0",
+    "seed": 42,
+    "validation_qwk": 0.700728071189183,
+    "run": "experiments/20261030-022910-822063_p4_regression_optuna0_s42",
+    "n": 295,
+    "qwk": 0.6789523325836175,
+    "mae": 0.2542372881355932,
+    "rmse": 0.5042194840896107,
+    "accuracy": 0.7457627118644068,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        93,
+        31,
+        0
+      ],
+      [
+        18,
+        113,
+        11
+      ],
+      [
+        0,
+        15,
+        14
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "optuna1",
+    "seed": 42,
+    "validation_qwk": 0.6770276605719643,
+    "run": "experiments/20261030-022941-917085_p4_regression_optuna1_s42",
+    "n": 295,
+    "qwk": 0.7370729291928981,
+    "mae": 0.2135593220338983,
+    "rmse": 0.4621247905424446,
+    "accuracy": 0.7864406779661017,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        101,
+        23,
+        0
+      ],
+      [
+        13,
+        116,
+        13
+      ],
+      [
+        0,
+        14,
+        15
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_clean",
+    "seed": 42,
+    "validation_qwk": 0.700728071189183,
+    "run": "experiments/20261030-023442-225812_p4_regression_repeat_clean_s42",
+    "n": 295,
+    "qwk": 0.6789523325836175,
+    "mae": 0.2542372881355932,
+    "rmse": 0.5042194840896107,
+    "accuracy": 0.7457627118644068,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        93,
+        31,
+        0
+      ],
+      [
+        18,
+        113,
+        11
+      ],
+      [
+        0,
+        15,
+        14
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_noise",
+    "seed": 42,
+    "validation_qwk": 0.6539886773031395,
+    "run": "experiments/20261030-023513-227804_p4_regression_repeat_noise_s42",
+    "n": 295,
+    "qwk": 0.6872070687668075,
+    "mae": 0.23389830508474577,
+    "rmse": 0.4836303392930863,
+    "accuracy": 0.7661016949152543,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        99,
+        25,
+        0
+      ],
+      [
+        17,
+        118,
+        7
+      ],
+      [
+        0,
+        20,
+        9
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_clean",
+    "seed": 123,
+    "validation_qwk": 0.6679403995588952,
+    "run": "experiments/20261030-023544-558257_p4_regression_repeat_clean_s123",
+    "n": 295,
+    "qwk": 0.6703910614525139,
+    "mae": 0.23728813559322035,
+    "rmse": 0.4871223004474547,
+    "accuracy": 0.7627118644067796,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        98,
+        26,
+        0
+      ],
+      [
+        18,
+        120,
+        4
+      ],
+      [
+        0,
+        22,
+        7
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_noise",
+    "seed": 123,
+    "validation_qwk": 0.6777933852636956,
+    "run": "experiments/20261030-023615-615574_p4_regression_repeat_noise_s123",
+    "n": 295,
+    "qwk": 0.686095449853093,
+    "mae": 0.2271186440677966,
+    "rmse": 0.4765696633943422,
+    "accuracy": 0.7728813559322034,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        101,
+        23,
+        0
+      ],
+      [
+        18,
+        120,
+        4
+      ],
+      [
+        0,
+        22,
+        7
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_clean",
+    "seed": 2026,
+    "validation_qwk": 0.6794733955019199,
+    "run": "experiments/20261030-023646-914950_p4_regression_repeat_clean_s2026",
+    "n": 295,
+    "qwk": 0.6850196179327201,
+    "mae": 0.2677966101694915,
+    "rmse": 0.5304299503265156,
+    "accuracy": 0.7389830508474576,
+    "within_one": 0.9932203389830508,
+    "confusion_matrix": [
+      [
+        89,
+        33,
+        2
+      ],
+      [
+        9,
+        109,
+        24
+      ],
+      [
+        0,
+        9,
+        20
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_noise",
+    "seed": 2026,
+    "validation_qwk": 0.672514619883041,
+    "run": "experiments/20261030-023717-755362_p4_regression_repeat_noise_s2026",
+    "n": 295,
+    "qwk": 0.7187635418171313,
+    "mae": 0.21694915254237288,
+    "rmse": 0.47299980291678984,
+    "accuracy": 0.7864406779661017,
+    "within_one": 0.9966101694915255,
+    "confusion_matrix": [
+      [
+        98,
+        25,
+        1
+      ],
+      [
+        16,
+        118,
+        8
+      ],
+      [
+        0,
+        13,
+        16
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_targeted",
+    "seed": 42,
+    "validation_qwk": 0.6758460002219017,
+    "run": "experiments/20261030-024042-498919_p4_regression_repeat_targeted_s42",
+    "n": 295,
+    "qwk": 0.6948065383819574,
+    "mae": 0.2542372881355932,
+    "rmse": 0.5042194840896107,
+    "accuracy": 0.7457627118644068,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        100,
+        24,
+        0
+      ],
+      [
+        22,
+        105,
+        15
+      ],
+      [
+        0,
+        14,
+        15
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_targeted",
+    "seed": 123,
+    "validation_qwk": 0.6903270382312299,
+    "run": "experiments/20261030-024113-818819_p4_regression_repeat_targeted_s123",
+    "n": 295,
+    "qwk": 0.6802702883521776,
+    "mae": 0.2677966101694915,
+    "rmse": 0.5240002587656237,
+    "accuracy": 0.735593220338983,
+    "within_one": 0.9966101694915255,
+    "confusion_matrix": [
+      [
+        94,
+        29,
+        1
+      ],
+      [
+        17,
+        106,
+        19
+      ],
+      [
+        0,
+        12,
+        17
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "distilbert_regression",
+    "stage": "repeat_targeted",
+    "seed": 2026,
+    "validation_qwk": 0.6818383569382238,
+    "run": "experiments/20261030-024145-139805_p4_regression_repeat_targeted_s2026",
+    "n": 295,
+    "qwk": 0.6674885523071504,
+    "mae": 0.31186440677966104,
+    "rmse": 0.570459226249834,
+    "accuracy": 0.6949152542372882,
+    "within_one": 0.9932203389830508,
+    "confusion_matrix": [
+      [
+        97,
+        25,
+        2
+      ],
+      [
+        21,
+        87,
+        34
+      ],
+      [
+        0,
+        8,
+        21
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "tfidf_logistic",
+    "stage": "baseline",
+    "seed": 42,
+    "validation_qwk": 0.5740709411831049,
+    "run": "experiments/20261030-021213-279475_baselines/prompt4_logistic.joblib",
+    "n": 295,
+    "qwk": 0.5511582186511668,
+    "mae": 0.29491525423728815,
+    "rmse": 0.5492676171541859,
+    "accuracy": 0.7084745762711865,
+    "within_one": 0.9966101694915255,
+    "confusion_matrix": [
+      [
+        93,
+        31,
+        0
+      ],
+      [
+        24,
+        116,
+        2
+      ],
+      [
+        1,
+        28,
+        0
+      ]
+    ]
+  },
+  {
+    "prompt": 4,
+    "method": "tfidf_ridge",
+    "stage": "baseline",
+    "seed": 42,
+    "validation_qwk": 0.5560613388716606,
+    "run": "experiments/20261030-021213-279475_baselines/prompt4_ridge.joblib",
+    "n": 295,
+    "qwk": 0.5658795345653662,
+    "mae": 0.29152542372881357,
+    "rmse": 0.5399309434814915,
+    "accuracy": 0.7084745762711865,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        81,
+        43,
+        0
+      ],
+      [
+        18,
+        123,
+        1
+      ],
+      [
+        0,
+        24,
+        5
+      ]
+    ]
+  }
+]

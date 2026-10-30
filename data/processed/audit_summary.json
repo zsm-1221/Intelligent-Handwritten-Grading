@@ -1,0 +1,124 @@
+{
+  "archives": [
+    {
+      "copy": "data/raw/asap-sas.zip",
+      "sha256": "090846428bee85ce2ae8b0e6a39317bd79b8a2f13eb2edb748a8fd3c9706f0d2",
+      "bytes": 25160505
+    },
+    {
+      "copy": "data/raw/handwritten-asap-sas.zip",
+      "sha256": "7881cd037f442585d9f9584258fa512ac68d1d9eaf7ce059d0c18c4d6278c917",
+      "bytes": 98397862
+    }
+  ],
+  "text_sources": {
+    "train.tsv": {
+      "columns": [
+        "Id",
+        "EssaySet",
+        "Score1",
+        "Score2",
+        "EssayText"
+      ],
+      "counts": {
+        "3": 1891,
+        "4": 1738
+      },
+      "score1": {
+        "1": 1936,
+        "2": 573,
+        "0": 1120
+      }
+    },
+    "train_rel_2.tsv": {
+      "columns": [
+        "Id",
+        "EssaySet",
+        "Score1",
+        "Score2",
+        "EssayText"
+      ],
+      "counts": {
+        "3": 1808,
+        "4": 1657
+      },
+      "score1": {
+        "1": 1903,
+        "2": 490,
+        "0": 1072
+      }
+    },
+    "public_leaderboard.tsv": {
+      "columns": [
+        "Id",
+        "EssaySet",
+        "EssayText"
+      ],
+      "counts": {
+        "3": 630,
+        "4": 579
+      },
+      "score1": {
+        "missing": 1209
+      }
+    },
+    "public_leaderboard_rel_2.tsv": {
+      "columns": [
+        "Id",
+        "EssaySet",
+        "EssayText"
+      ],
+      "counts": {
+        "3": 406,
+        "4": 295
+      },
+      "score1": {
+        "missing": 701
+      }
+    },
+    "private_leaderboard.tsv": {
+      "columns": [
+        "Id",
+        "EssaySet",
+        "EssayText"
+      ],
+      "counts": {
+        "3": 318,
+        "4": 250
+      },
+      "score1": {
+        "missing": 568
+      }
+    }
+  },
+  "score_target": "Score1; Score2 only measures rater agreement",
+  "scoring_range": {
+    "3": [
+      0,
+      2
+    ],
+    "4": [
+      0,
+      2
+    ]
+  },
+  "image_counts": {
+    "3": 185,
+    "4": 165
+  },
+  "matched_scores": {
+    "3": 185,
+    "4": 164
+  },
+  "reference_status": {
+    "3:ok": 175,
+    "3:err": 1,
+    "3:oob": 9,
+    "4:missing": 165
+  },
+  "unmatched_images": [
+    "data/raw/handwritten/Handwritten ASAP SAS/prompt-4/SAS_4_9966.png"
+  ],
+  "noncommercial_dataset_notice": "Preserve handwritten README; non-commercial research only.",
+  "reference_policy": "Only supplied information/*.txt is a verified OCR reference. Matched ASAP answers without that metadata are proxy texts, not verified transcriptions."
+}

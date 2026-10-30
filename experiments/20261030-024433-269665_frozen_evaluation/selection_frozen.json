@@ -1,0 +1,24 @@
+{
+  "3": {
+    "path": "models/prompt3/20261030-023036-732586_p3_classification_repeat_clean_s42",
+    "version": "20261030-023036-732586_p3_classification_repeat_clean_s42",
+    "task": "classification",
+    "selection": "Family mean validation QWK; preselected seed 42 checkpoint",
+    "validation_qwk": 0.6838999505082423,
+    "model_sha256": "79c7f23008b000e87eba3212b1fede7ed6ac3d3fb793072b4ac148e7c75fde81",
+    "review": {
+      "status": "pending_validation_calibration"
+    }
+  },
+  "4": {
+    "path": "models/prompt4/20261030-023442-225812_p4_regression_repeat_clean_s42",
+    "version": "20261030-023442-225812_p4_regression_repeat_clean_s42",
+    "task": "regression",
+    "selection": "Family mean validation QWK; preselected seed 42 checkpoint",
+    "validation_qwk": 0.700728071189183,
+    "model_sha256": "31bdad5bd51255d21cc23f51753660b56547b656accebf5a9c951f45e2b724aa",
+    "review": {
+      "status": "pending_validation_calibration"
+    }
+  }
+}

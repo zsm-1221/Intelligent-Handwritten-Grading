@@ -1,0 +1,16 @@
+{
+  "prompt": 3,
+  "task": "regression",
+  "validation_qwk": 0.6669174885562512,
+  "parameters": {
+    "learning_rate": 1.078718243300171e-05,
+    "batch_size": 8,
+    "epochs": 3,
+    "weight_decay": 0.0010862348973937142,
+    "dropout": 0.10307345281781835,
+    "max_length": 256
+  },
+  "path": "experiments/20261030-022655-467003_p3_regression_optuna2_s42",
+  "trials": 3,
+  "note": "Compute-bounded exploratory search, not evidence of a global optimum."
+}

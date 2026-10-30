@@ -1,0 +1,22 @@
+{
+  "pretrained": "data/pretrained/distilbert",
+  "seed": 42,
+  "learning_rate": 3e-05,
+  "batch_size": 16,
+  "epochs": 4,
+  "weight_decay": 0.01,
+  "dropout": 0.2,
+  "max_length": 192,
+  "patience": 2,
+  "warmup_ratio": 0.1,
+  "noise_probability": 0.0,
+  "label_smoothing": 0.0,
+  "num_workers": 0,
+  "threads": 4,
+  "search_trials_per_task_prompt": 3,
+  "repeat_seeds": [
+    42,
+    123,
+    2026
+  ]
+}

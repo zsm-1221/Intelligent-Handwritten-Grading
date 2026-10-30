@@ -1,0 +1,38 @@
+{
+  "path": "experiments/20261030-023646-914950_p4_regression_repeat_clean_s2026",
+  "prompt": 4,
+  "task": "regression",
+  "stage": "repeat_clean",
+  "seed": 2026,
+  "validation_qwk": 0.6794733955019199,
+  "best_epoch": 2,
+  "epochs_ran": 4,
+  "optimizer_steps": 664,
+  "elapsed_seconds": 30.33085209998535,
+  "encoder_weight_max_abs_change": 0.0019186660647392273,
+  "witness_parameter": "distilbert.transformer.layer.5.attention.q_lin.weight",
+  "last_gradient_norm": 3.962592363357544,
+  "pruned": false,
+  "config": {
+    "pretrained": "data/pretrained/distilbert",
+    "seed": 2026,
+    "learning_rate": 1.9563603928236998e-05,
+    "batch_size": 8,
+    "epochs": 4,
+    "weight_decay": 0.0020513382630874496,
+    "dropout": 0.13119890406724052,
+    "max_length": 256,
+    "patience": 2,
+    "warmup_ratio": 0.1,
+    "noise_probability": 0.0,
+    "label_smoothing": 0.0,
+    "num_workers": 0,
+    "threads": 4,
+    "search_trials_per_task_prompt": 3,
+    "repeat_seeds": [
+      42,
+      123,
+      2026
+    ]
+  }
+}

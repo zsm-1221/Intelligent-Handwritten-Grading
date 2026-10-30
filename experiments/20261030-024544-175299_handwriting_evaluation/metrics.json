@@ -1,0 +1,413 @@
+{
+  "3": {
+    "images": 185,
+    "verified_ocr": {
+      "n": 160,
+      "char_errors": 4782,
+      "reference_chars": 47593,
+      "word_errors": 2726,
+      "reference_words": 8037,
+      "cer": 0.10047696089761099,
+      "wer": 0.3391812865497076,
+      "normalization": "Unicode NFKC, lowercase, whitespace collapsed; punctuation retained; corpus micro average."
+    },
+    "verified_ocr_all_diagnostic": {
+      "n": 175,
+      "char_errors": 5052,
+      "reference_chars": 51754,
+      "word_errors": 2918,
+      "reference_words": 8735,
+      "cer": 0.09761564323530549,
+      "wer": 0.33405838580423586,
+      "normalization": "Unicode NFKC, lowercase, whitespace collapsed; punctuation retained; corpus micro average."
+    },
+    "preprocessing_development_n": 15,
+    "verified_reference_pair": {
+      "n": 160,
+      "reference_grading": {
+        "n": 160,
+        "qwk": 0.6697247706422018,
+        "mae": 0.28125,
+        "rmse": 0.5303300858899106,
+        "accuracy": 0.71875,
+        "within_one": 1.0,
+        "confusion_matrix": [
+          [
+            20,
+            13,
+            0
+          ],
+          [
+            6,
+            69,
+            15
+          ],
+          [
+            0,
+            11,
+            26
+          ]
+        ]
+      },
+      "ocr_grading": {
+        "n": 160,
+        "qwk": 0.5522388059701493,
+        "mae": 0.3625,
+        "rmse": 0.6123724356957945,
+        "accuracy": 0.64375,
+        "within_one": 0.99375,
+        "confusion_matrix": [
+          [
+            19,
+            14,
+            0
+          ],
+          [
+            12,
+            65,
+            13
+          ],
+          [
+            1,
+            17,
+            19
+          ]
+        ]
+      },
+      "paired_effect": {
+        "n": 160,
+        "score_change_rate": 0.1125,
+        "worsened_absolute_error_rate": 0.09375,
+        "improved_absolute_error_rate": 0.01875,
+        "mean_added_absolute_error": 0.08125,
+        "spearman_cer_vs_added_absolute_error": 0.3250500666832215,
+        "cer_groups": {
+          "cer<=0.10": {
+            "ocr_grading": {
+              "n": 121,
+              "qwk": 0.6276320051830255,
+              "mae": 0.3140495867768595,
+              "rmse": 0.5604012729971797,
+              "accuracy": 0.6859504132231405,
+              "within_one": 1.0,
+              "confusion_matrix": [
+                [
+                  16,
+                  11,
+                  0
+                ],
+                [
+                  7,
+                  51,
+                  10
+                ],
+                [
+                  0,
+                  10,
+                  16
+                ]
+              ]
+            },
+            "text_grading": {
+              "n": 121,
+              "qwk": 0.6480622592563478,
+              "mae": 0.30578512396694213,
+              "rmse": 0.5529784118452927,
+              "accuracy": 0.6942148760330579,
+              "within_one": 1.0,
+              "confusion_matrix": [
+                [
+                  16,
+                  11,
+                  0
+                ],
+                [
+                  6,
+                  50,
+                  12
+                ],
+                [
+                  0,
+                  8,
+                  18
+                ]
+              ]
+            }
+          },
+          "0.10<cer<=0.25": {
+            "ocr_grading": {
+              "n": 26,
+              "qwk": 0.4723247232472325,
+              "mae": 0.4230769230769231,
+              "rmse": 0.6504436355879909,
+              "accuracy": 0.5769230769230769,
+              "within_one": 1.0,
+              "confusion_matrix": [
+                [
+                  2,
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  10,
+                  2
+                ],
+                [
+                  0,
+                  4,
+                  3
+                ]
+              ]
+            },
+            "text_grading": {
+              "n": 26,
+              "qwk": 0.7750865051903114,
+              "mae": 0.19230769230769232,
+              "rmse": 0.4385290096535146,
+              "accuracy": 0.8076923076923077,
+              "within_one": 1.0,
+              "confusion_matrix": [
+                [
+                  3,
+                  2,
+                  0
+                ],
+                [
+                  0,
+                  12,
+                  2
+                ],
+                [
+                  0,
+                  1,
+                  6
+                ]
+              ]
+            }
+          },
+          "cer>0.25": {
+            "ocr_grading": {
+              "n": 13,
+              "qwk": 0.14371257485029942,
+              "mae": 0.6923076923076923,
+              "rmse": 0.9198662110077999,
+              "accuracy": 0.38461538461538464,
+              "within_one": 0.9230769230769231,
+              "confusion_matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  4,
+                  1
+                ],
+                [
+                  1,
+                  3,
+                  0
+                ]
+              ]
+            },
+            "text_grading": {
+              "n": 13,
+              "qwk": 0.6285714285714286,
+              "mae": 0.23076923076923078,
+              "rmse": 0.4803844614152614,
+              "accuracy": 0.7692307692307693,
+              "within_one": 1.0,
+              "confusion_matrix": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  7,
+                  1
+                ],
+                [
+                  0,
+                  2,
+                  2
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "official_original_text_pair": {
+      "note": "Original ASAP text is a proxy for image transcription where verified metadata is absent.",
+      "original_grading": {
+        "n": 185,
+        "qwk": 0.6745936818405684,
+        "mae": 0.2702702702702703,
+        "rmse": 0.5198752449100363,
+        "accuracy": 0.7297297297297297,
+        "within_one": 1.0,
+        "confusion_matrix": [
+          [
+            24,
+            14,
+            0
+          ],
+          [
+            6,
+            83,
+            18
+          ],
+          [
+            0,
+            12,
+            28
+          ]
+        ]
+      },
+      "ocr_grading": {
+        "n": 185,
+        "qwk": 0.5694747771293545,
+        "mae": 0.34054054054054056,
+        "rmse": 0.5927489783638191,
+        "accuracy": 0.6648648648648648,
+        "within_one": 0.9945945945945946,
+        "confusion_matrix": [
+          [
+            23,
+            15,
+            0
+          ],
+          [
+            12,
+            79,
+            16
+          ],
+          [
+            1,
+            18,
+            21
+          ]
+        ]
+      },
+      "paired_effect": {
+        "n": 185,
+        "score_change_rate": 0.0972972972972973,
+        "worsened_absolute_error_rate": 0.08108108108108109,
+        "improved_absolute_error_rate": 0.016216216216216217,
+        "mean_added_absolute_error": 0.07027027027027027
+      }
+    },
+    "warnings": 0
+  },
+  "4": {
+    "images": 165,
+    "verified_ocr": {
+      "n": 0,
+      "char_errors": 0,
+      "reference_chars": 0,
+      "word_errors": 0,
+      "reference_words": 0,
+      "cer": null,
+      "wer": null,
+      "normalization": "Unicode NFKC, lowercase, whitespace collapsed; punctuation retained; corpus micro average."
+    },
+    "verified_ocr_all_diagnostic": {
+      "n": 0,
+      "char_errors": 0,
+      "reference_chars": 0,
+      "word_errors": 0,
+      "reference_words": 0,
+      "cer": null,
+      "wer": null,
+      "normalization": "Unicode NFKC, lowercase, whitespace collapsed; punctuation retained; corpus micro average."
+    },
+    "preprocessing_development_n": 0,
+    "verified_reference_pair": {
+      "n": 0,
+      "reference_grading": {
+        "n": 0,
+        "qwk": null,
+        "mae": null,
+        "rmse": null,
+        "accuracy": null,
+        "within_one": null
+      },
+      "ocr_grading": {
+        "n": 0,
+        "qwk": null,
+        "mae": null,
+        "rmse": null,
+        "accuracy": null,
+        "within_one": null
+      },
+      "paired_effect": {
+        "n": 0
+      }
+    },
+    "official_original_text_pair": {
+      "note": "Original ASAP text is a proxy for image transcription where verified metadata is absent.",
+      "original_grading": {
+        "n": 164,
+        "qwk": 0.7312576812781646,
+        "mae": 0.1951219512195122,
+        "rmse": 0.4417261042993862,
+        "accuracy": 0.8048780487804879,
+        "within_one": 1.0,
+        "confusion_matrix": [
+          [
+            49,
+            12,
+            0
+          ],
+          [
+            10,
+            75,
+            3
+          ],
+          [
+            0,
+            7,
+            8
+          ]
+        ]
+      },
+      "ocr_grading": {
+        "n": 164,
+        "qwk": 0.6427964300892477,
+        "mae": 0.25,
+        "rmse": 0.5,
+        "accuracy": 0.75,
+        "within_one": 1.0,
+        "confusion_matrix": [
+          [
+            51,
+            10,
+            0
+          ],
+          [
+            16,
+            69,
+            3
+          ],
+          [
+            0,
+            12,
+            3
+          ]
+        ]
+      },
+      "paired_effect": {
+        "n": 164,
+        "score_change_rate": 0.09146341463414634,
+        "worsened_absolute_error_rate": 0.07317073170731707,
+        "improved_absolute_error_rate": 0.018292682926829267,
+        "mean_added_absolute_error": 0.054878048780487805
+      }
+    },
+    "warnings": 1
+  }
+}

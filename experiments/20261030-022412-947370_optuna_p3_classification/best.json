@@ -1,0 +1,16 @@
+{
+  "prompt": 3,
+  "task": "classification",
+  "validation_qwk": 0.6838999505082423,
+  "parameters": {
+    "learning_rate": 2.9360158651115808e-05,
+    "batch_size": 8,
+    "epochs": 5,
+    "weight_decay": 0.04622589001020832,
+    "dropout": 0.14246782213565523,
+    "max_length": 256
+  },
+  "path": "experiments/20261030-022447-618711_p3_classification_optuna1_s42",
+  "trials": 3,
+  "note": "Compute-bounded exploratory search, not evidence of a global optimum."
+}

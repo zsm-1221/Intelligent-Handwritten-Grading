@@ -1,0 +1,96 @@
+{
+  "3": {
+    "families": {
+      "repeat_clean": {
+        "mean_validation_qwk": 0.6730328758980905,
+        "std_validation_qwk": 0.012804686952442038,
+        "seeds": [
+          42,
+          123,
+          2026
+        ],
+        "runs": [
+          "experiments/20261030-023036-732586_p3_classification_repeat_clean_s42",
+          "experiments/20261030-023152-978249_p3_classification_repeat_clean_s123",
+          "experiments/20261030-023317-556363_p3_classification_repeat_clean_s2026"
+        ]
+      },
+      "repeat_noise": {
+        "mean_validation_qwk": 0.6634857716744804,
+        "std_validation_qwk": 0.005339705797824705,
+        "seeds": [
+          42,
+          123,
+          2026
+        ],
+        "runs": [
+          "experiments/20261030-023110-302214_p3_classification_repeat_noise_s42",
+          "experiments/20261030-023235-115615_p3_classification_repeat_noise_s123",
+          "experiments/20261030-023359-841867_p3_classification_repeat_noise_s2026"
+        ]
+      },
+      "repeat_targeted": {
+        "mean_validation_qwk": 0.6685823789897049,
+        "std_validation_qwk": 0.021253416551227783,
+        "seeds": [
+          42,
+          123,
+          2026
+        ],
+        "runs": [
+          "experiments/20261030-023817-832162_p3_classification_repeat_targeted_s42",
+          "experiments/20261030-023916-826923_p3_classification_repeat_targeted_s123",
+          "experiments/20261030-023959-691776_p3_classification_repeat_targeted_s2026"
+        ]
+      }
+    },
+    "chosen_family": "repeat_clean"
+  },
+  "4": {
+    "families": {
+      "repeat_clean": {
+        "mean_validation_qwk": 0.682713955416666,
+        "std_validation_qwk": 0.01663231114892606,
+        "seeds": [
+          42,
+          123,
+          2026
+        ],
+        "runs": [
+          "experiments/20261030-023442-225812_p4_regression_repeat_clean_s42",
+          "experiments/20261030-023544-558257_p4_regression_repeat_clean_s123",
+          "experiments/20261030-023646-914950_p4_regression_repeat_clean_s2026"
+        ]
+      },
+      "repeat_noise": {
+        "mean_validation_qwk": 0.6680988941499587,
+        "std_validation_qwk": 0.012501600120952305,
+        "seeds": [
+          42,
+          123,
+          2026
+        ],
+        "runs": [
+          "experiments/20261030-023513-227804_p4_regression_repeat_noise_s42",
+          "experiments/20261030-023615-615574_p4_regression_repeat_noise_s123",
+          "experiments/20261030-023717-755362_p4_regression_repeat_noise_s2026"
+        ]
+      },
+      "repeat_targeted": {
+        "mean_validation_qwk": 0.6826704651304518,
+        "std_validation_qwk": 0.007276291534125178,
+        "seeds": [
+          42,
+          123,
+          2026
+        ],
+        "runs": [
+          "experiments/20261030-024042-498919_p4_regression_repeat_targeted_s42",
+          "experiments/20261030-024113-818819_p4_regression_repeat_targeted_s123",
+          "experiments/20261030-024145-139805_p4_regression_repeat_targeted_s2026"
+        ]
+      }
+    },
+    "chosen_family": "repeat_clean"
+  }
+}

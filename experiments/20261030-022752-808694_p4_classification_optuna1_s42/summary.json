@@ -1,0 +1,38 @@
+{
+  "path": "experiments/20261030-022752-808694_p4_classification_optuna1_s42",
+  "prompt": 4,
+  "task": "classification",
+  "stage": "optuna1",
+  "seed": 42,
+  "validation_qwk": 0.6657745475974169,
+  "best_epoch": 4,
+  "epochs_ran": 5,
+  "optimizer_steps": 830,
+  "elapsed_seconds": 38.24918109999271,
+  "encoder_weight_max_abs_change": 0.0031447485089302063,
+  "witness_parameter": "distilbert.transformer.layer.5.attention.q_lin.weight",
+  "last_gradient_norm": 5.680251121520996,
+  "pruned": false,
+  "config": {
+    "pretrained": "data/pretrained/distilbert",
+    "seed": 42,
+    "learning_rate": 2.9360158651115808e-05,
+    "batch_size": 8,
+    "epochs": 5,
+    "weight_decay": 0.04622589001020832,
+    "dropout": 0.14246782213565523,
+    "max_length": 256,
+    "patience": 2,
+    "warmup_ratio": 0.1,
+    "noise_probability": 0.0,
+    "label_smoothing": 0.0,
+    "num_workers": 0,
+    "threads": 4,
+    "search_trials_per_task_prompt": 3,
+    "repeat_seeds": [
+      42,
+      123,
+      2026
+    ]
+  }
+}

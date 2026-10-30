@@ -1,0 +1,20 @@
+{
+  "development_prompt3_ids": [
+    6809,
+    6812,
+    6813,
+    6814,
+    6816,
+    6817,
+    6818,
+    6820,
+    6821,
+    6822,
+    6823,
+    6824,
+    6825,
+    6826,
+    6827
+  ],
+  "policy": "First 15 normal-reference Prompt 3 IDs for generic preprocessing development; no OCR-reference or image used to train/tune scoring models; remaining normal references held out for primary CER/WER."
+}

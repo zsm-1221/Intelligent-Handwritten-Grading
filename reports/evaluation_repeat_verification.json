@@ -1,0 +1,8 @@
+{
+  "old_evaluation": "experiments/20261030-024251-859194_frozen_evaluation",
+  "final_evaluation": "experiments/20261030-024433-269665_frozen_evaluation",
+  "scores_compared": 11216,
+  "scores_metrics_and_frozen_weights_unchanged": true,
+  "corrected_conservative_truncation_flags": 12,
+  "reason": "Compute actual answer token budget using encoded question/rubric length rather than assuming the entire reserved half was consumed. Encoded input, model weights, predicted scores, hyperparameters and selection were unchanged."
+}
