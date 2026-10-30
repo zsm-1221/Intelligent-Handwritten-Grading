@@ -68,11 +68,14 @@ def ui_batch(prompt,text,files):
     except Exception as exc:
         raise gr.Error(str(exc))
 
-def build_app():
+def build_app(public_demo=False):
     theme=gr.themes.Soft(primary_hue="teal",font=["Microsoft YaHei","Arial","sans-serif"],font_mono=["Consolas","monospace"])
-    with gr.Blocks(title="英文手写简答题智能评分",theme=theme,css=CSS,js=JS) as app:
+    with gr.Blocks(title="英文手写简答题智能评分",theme=theme,css=CSS,js=JS,
+                   analytics_enabled=False,delete_cache=(3600,3600) if public_demo else None) as app:
         gr.HTML("<div class='hero'><h1>英文手写简答题智能评分</h1><p>手写识别 · 自主训练评分 · 教师复核　｜　深度学习课程项目</p></div>")
         gr.Markdown("上传英文手写答案，或直接输入英文文本。系统支持题目 3 和题目 4，满分均为 2 分。请先核对题目，再进行评分。")
+        if public_demo:
+            gr.Markdown("公开课程演示，请使用不含姓名、学号等个人信息的匿名答案。上传内容不参与模型训练；临时文件定期清理。首次加载模型和手写识别可能需要等待，请勿重复提交。")
         prompt = gr.Dropdown(choices=[("题目 3：熊猫、考拉与蟒蛇",3),("题目 4：入侵物种",4)], value=3,label="选择题目",interactive=True,
                              allow_custom_value=True,info="请选择题目 3 或题目 4；其他题目需要教师人工复核。")
         q,r = show_prompt(3)

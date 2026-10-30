@@ -123,3 +123,7 @@ print(result["score"], result["confidence"], result["needs_review"])
 ```
 
 目前只支持题目 3、4。预训练 TrOCR 没有在本项目微调；项目的自主深度学习训练重点是 DistilBERT 评分模型。数据域、独立自采最终测试缺失、OCR 错误和长答案截断等局限会在真实实验报告中明确列出。
+
+## Hugging Face Spaces 部署入口
+
+已增加根目录 app.py、CPU 固定依赖及 Gradio SDK 元数据，见 [部署说明](docs/spaces-deployment.md)。真实权重部署包已完成本机 CPU 实测。本次线上创建被 Hugging Face 的 PRO 订阅要求（HTTP 402）阻止，用户选择暂不开通，因此尚未上线。

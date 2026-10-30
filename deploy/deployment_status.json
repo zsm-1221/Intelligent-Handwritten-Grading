@@ -1,0 +1,12 @@
+{
+  "status": "not_deployed_subscription_required",
+  "account": "zd2004",
+  "target_space": "zd2004/Intelligent-Handwritten-Grading",
+  "public_access_requested": true,
+  "space_created": false,
+  "http_status": 402,
+  "platform_message": "Static Spaces are free for everyone, but hosting Gradio and Docker Spaces on free cpu-basic requires a PRO subscription.",
+  "user_decision": "Do not subscribe now; retain tested deployment package.",
+  "local_cpu_tests_passed": true,
+  "migration_tests_passed": 9
+}
