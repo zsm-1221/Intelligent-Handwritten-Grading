@@ -25,7 +25,7 @@ cd Intelligent-Handwritten-Grading
 .\.venv\Scripts\python.exe -X utf8 demo/app.py
 ```
 
-浏览器访问 <http://127.0.0.1:7860>。也可以双击项目根目录的 `启动评分系统.cmd` 自动打开网页，或执行 `scripts/start_demo.ps1`。网页启动不会触发训练，权重和预训练 OCR 都从项目内离线加载，不调用商业 API。
+浏览器访问 [<http://127.0.0.1:7860>](https://3f431a2aa4e22dab2c.gradio.live/)。也可以双击项目根目录的 `启动评分系统.cmd` 自动打开网页，或执行 `scripts/start_demo.ps1`。网页启动不会触发训练，权重和预训练 OCR 都从项目内离线加载，不调用商业 API。
 
 使用顺序：选择题目 → 查看英文题目与完整评分标准 → 上传图片并识别评分 → 核对原图与 OCR → 修改识别文本后重新评分。也可切换到文本或批量评分标签。图片评分均提示教师核对 OCR；文本自动评分阈值不能当作图片域可靠性的证据。
 
@@ -124,6 +124,4 @@ print(result["score"], result["confidence"], result["needs_review"])
 
 目前只支持题目 3、4。预训练 TrOCR 没有在本项目微调；项目的自主深度学习训练重点是 DistilBERT 评分模型。数据域、独立自采最终测试缺失、OCR 错误和长答案截断等局限会在真实实验报告中明确列出。
 
-## Hugging Face Spaces 部署入口
 
-已增加根目录 app.py、CPU 固定依赖及 Gradio SDK 元数据，见 [部署说明](docs/spaces-deployment.md)。真实权重部署包已完成本机 CPU 实测。本次线上创建被 Hugging Face 的 PRO 订阅要求（HTTP 402）阻止，用户选择暂不开通，因此尚未上线。
