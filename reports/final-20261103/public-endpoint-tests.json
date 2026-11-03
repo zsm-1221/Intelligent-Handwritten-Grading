@@ -1,0 +1,82 @@
+{
+  "url": "https://766367126f380a0b07.gradio.live",
+  "passed": true,
+  "seconds": 40.80336640001042,
+  "test_data": "invented answers and locally generated Segoe Print font image; no student data",
+  "real_handwriting_accuracy_evaluation": false,
+  "checks": [
+    {
+      "test": "prompt_3_real_model_text",
+      "passed": true,
+      "result": [
+        "<div class='score-grid'><div class='score-card'>预测分数<strong>0 / 2</strong></div><div class='score-card'>评分等级<strong>理解不足</strong></div><div class='score-card'>评分置信度信号<strong>0.748</strong></div></div><div class='review'><b>建议教师复核</b><br>评分可靠性信号未达到验证集复核阈值</div>",
+        "模型版本：20261030-023036-732586_p3_classification_repeat_clean_s42　｜　本次推理耗时：1.38 秒\n\n评分置信度是模型排序信号，**不是预测正确率**。当前复核阈值为 0.8608，仅由验证集选择。"
+      ]
+    },
+    {
+      "test": "prompt_4_real_model_text",
+      "passed": true,
+      "result": [
+        "<div class='score-grid'><div class='score-card'>预测分数<strong>1 / 2</strong></div><div class='score-card'>评分等级<strong>部分达标</strong></div><div class='score-card'>评分置信度信号<strong>0.953</strong></div></div><div class='okay'><b>达到文本自动评分阈值</b><br>验证集阈值下达到预设一致性要求，仍需结合教学情境使用。</div>",
+        "模型版本：20261030-023442-225812_p4_regression_repeat_clean_s42　｜　本次推理耗时：1.21 秒\n\n评分置信度是模型排序信号，**不是预测正确率**。当前复核阈值为 0.6016，仅由验证集选择。"
+      ]
+    },
+    {
+      "test": "generated_handwriting_font_image_upload_ocr_and_grading",
+      "passed": true,
+      "ocr_text": "Pandas eat bamboo . Koalas eat eucalyptus leaves .\nBoth have specialized diets . Pythons eat many animals ."
+    },
+    {
+      "test": "edited_text_regrading",
+      "passed": true
+    },
+    {
+      "test": "batch_two_invented_answers",
+      "passed": true,
+      "result": {
+        "headers": [
+          "答案编号",
+          "题目",
+          "识别或输入文本",
+          "预测分数",
+          "满分",
+          "评分等级",
+          "可靠性信号",
+          "建议教师复核",
+          "复核原因",
+          "模型版本",
+          "耗时（秒）"
+        ],
+        "data": [
+          [
+            "文本 1",
+            3,
+            "Pandas eat bamboo. Koalas eat eucalyptus. Both have narrow diets.",
+            1,
+            2,
+            "部分达标",
+            0.5783,
+            "是",
+            "评分可靠性信号未达到验证集复核阈值",
+            "20261030-023036-732586_p3_classification_repeat_clean_s42",
+            0.121
+          ],
+          [
+            "文本 2",
+            3,
+            "Pandas and koalas eat everything, including snakes.",
+            0,
+            2,
+            "理解不足",
+            0.9429,
+            "否",
+            "",
+            "20261030-023036-732586_p3_classification_repeat_clean_s42",
+            0.13
+          ]
+        ],
+        "metadata": null
+      }
+    }
+  ]
+}

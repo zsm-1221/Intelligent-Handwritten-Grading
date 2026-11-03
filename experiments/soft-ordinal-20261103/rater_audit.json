@@ -1,0 +1,30 @@
+[
+  {
+    "prompt": 3,
+    "split": "train",
+    "n": 1447,
+    "missing_score2": 0,
+    "rater_disagreements": 284
+  },
+  {
+    "prompt": 3,
+    "split": "validation",
+    "n": 361,
+    "missing_score2": 0,
+    "rater_disagreements": 86
+  },
+  {
+    "prompt": 4,
+    "split": "train",
+    "n": 1325,
+    "missing_score2": 0,
+    "rater_disagreements": 237
+  },
+  {
+    "prompt": 4,
+    "split": "validation",
+    "n": 332,
+    "missing_score2": 0,
+    "rater_disagreements": 61
+  }
+]

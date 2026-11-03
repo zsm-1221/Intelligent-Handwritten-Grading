@@ -1,0 +1,34 @@
+{
+  "prompt": 4,
+  "group": "soft_ce_emd",
+  "config": {
+    "pretrained": "data/pretrained/distilbert",
+    "seed": 42,
+    "learning_rate": 3.94454108482799e-05,
+    "batch_size": 16,
+    "epochs": 4,
+    "weight_decay": 0.036491301020610045,
+    "dropout": 0.3,
+    "max_length": 256,
+    "patience": 2,
+    "warmup_ratio": 0.1,
+    "noise_probability": 0.0,
+    "label_smoothing": 0.0,
+    "num_workers": 0,
+    "threads": 4,
+    "search_trials_per_task_prompt": 3,
+    "repeat_seeds": [
+      42,
+      123,
+      2026
+    ],
+    "emd_weight": 1.0
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "torch": "2.8.0+cu128",
+  "soft_target": "0.5 onehot(Score1)+0.5 onehot(Score2); missing Score2 -> Score1",
+  "emd_definition": "mean squared CDF distance over K-1 thresholds",
+  "train_rows": 1325,
+  "validation_rows": 332
+}

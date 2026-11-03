@@ -1,0 +1,30 @@
+{
+  "metrics": {
+    "n": 295,
+    "qwk": 0.6922368824792882,
+    "mae": 0.2305084745762712,
+    "rmse": 0.4801129810537007,
+    "accuracy": 0.7694915254237288,
+    "within_one": 1.0,
+    "confusion_matrix": [
+      [
+        99,
+        25,
+        0
+      ],
+      [
+        18,
+        118,
+        6
+      ],
+      [
+        0,
+        19,
+        10
+      ]
+    ],
+    "loss": 0.5935003729189856
+  },
+  "selection_sha256": "e38ef39f1abe4ddca3bbbcacf0347ab65de9f8347bc86b33e7459cd1dd2442d2",
+  "privacy": "aggregate confusion matrix only; no individual IDs or predictions"
+}

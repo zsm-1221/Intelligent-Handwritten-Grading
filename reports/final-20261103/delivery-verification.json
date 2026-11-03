@@ -1,0 +1,15 @@
+{
+  "release": "2026-11-03-soft-ordinal-v2",
+  "old_url": "https://3f431a2aa4e22dab2c.gradio.live",
+  "old_url_http_status": 404,
+  "url": "https://766367126f380a0b07.gradio.live",
+  "public_functional_checks": 5,
+  "public_version_check_passed": true,
+  "browser_checks": 5,
+  "functional_tests": 13,
+  "protected_files_sha256_verified": true,
+  "unchanged_deployment_models": true,
+  "ppt_png_count": 20,
+  "requires_local_machine_online": true,
+  "temporary_link": true
+}

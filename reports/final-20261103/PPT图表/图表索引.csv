@@ -1,0 +1,21 @@
+﻿编号,建议页码,说明,文件
+P3_validation_qwk,9,题目3：验证集选模。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P3_validation_qwk.png；P3_validation_qwk.pdf；P3_validation_qwk.svg
+P3_test_qwk,10,题目3：测试QWK与种子稳定性。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P3_test_qwk.png；P3_test_qwk.pdf；P3_test_qwk.svg
+P3_test_mae,10,题目3：测试MAE。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P3_test_mae.png；P3_test_mae.pdf；P3_test_mae.svg
+P3_test_accuracy,10,题目3：测试准确率。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P3_test_accuracy.png；P3_test_accuracy.pdf；P3_test_accuracy.svg
+P3_搜索预算,8,每组同样20组候选；横轴是共享随机候选顺序，纵轴为迄今最佳验证QWK。,P3_搜索预算.png
+P3_选定方法_seed42_loss,7,题目3，硬标签 CE，预先固定seed42的示例：训练验证损失。单种子不代表三种子平均。,P3_选定方法_seed42_loss.png
+P3_选定方法_seed42_validation_qwk,7,题目3，硬标签 CE，预先固定seed42的示例：逐轮验证QWK。单种子不代表三种子平均。,P3_选定方法_seed42_validation_qwk.png
+P3_选定方法_seed42_confusion,11,题目3，硬标签 CE，预先固定seed42的示例：测试混淆矩阵。单种子不代表三种子平均。,P3_选定方法_seed42_confusion.png
+P4_validation_qwk,9,题目4：验证集选模。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P4_validation_qwk.png；P4_validation_qwk.pdf；P4_validation_qwk.svg
+P4_test_qwk,10,题目4：测试QWK与种子稳定性。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P4_test_qwk.png；P4_test_qwk.pdf；P4_test_qwk.svg
+P4_test_mae,10,题目4：测试MAE。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P4_test_mae.png；P4_test_mae.pdf；P4_test_mae.svg
+P4_test_accuracy,10,题目4：测试准确率。柱为3种子均值，误差棒为样本标准差，黑点为每个种子；不是置信区间。,P4_test_accuracy.png；P4_test_accuracy.pdf；P4_test_accuracy.svg
+P4_搜索预算,8,每组同样20组候选；横轴是共享随机候选顺序，纵轴为迄今最佳验证QWK。,P4_搜索预算.png
+P4_选定方法_seed42_loss,7,题目4，软标签 CE，预先固定seed42的示例：训练验证损失。单种子不代表三种子平均。,P4_选定方法_seed42_loss.png
+P4_选定方法_seed42_validation_qwk,7,题目4，软标签 CE，预先固定seed42的示例：逐轮验证QWK。单种子不代表三种子平均。,P4_选定方法_seed42_validation_qwk.png
+P4_选定方法_seed42_confusion,11,题目4，软标签 CE，预先固定seed42的示例：测试混淆矩阵。单种子不代表三种子平均。,P4_选定方法_seed42_confusion.png
+早期分类回归与传统基线,6,早期独立实验阶段的传统基线与分类/回归模型比较；不能与新消融混为同一搜索预算。,早期分类回归与传统基线.png
+系统_最新实验结果,14,实际浏览器验收截图；图片为新生成字体样例，不是学生原图，不代表真实手写识别精度。,系统_最新实验结果.png
+系统_合成字体图片OCR与评分,14,实际浏览器验收截图；图片为新生成字体样例，不是学生原图，不代表真实手写识别精度。,系统_合成字体图片OCR与评分.png
+系统_批量评分,14,实际浏览器验收截图；图片为新生成字体样例，不是学生原图，不代表真实手写识别精度。,系统_批量评分.png

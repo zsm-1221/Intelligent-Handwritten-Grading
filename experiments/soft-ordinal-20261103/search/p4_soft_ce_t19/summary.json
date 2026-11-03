@@ -1,0 +1,60 @@
+{
+  "prompt": 4,
+  "group": "soft_ce",
+  "seed": 42,
+  "config": {
+    "pretrained": "data/pretrained/distilbert",
+    "seed": 42,
+    "learning_rate": 1.4528585395368924e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "weight_decay": 0.02915162679714686,
+    "dropout": 0.1,
+    "max_length": 192,
+    "patience": 2,
+    "warmup_ratio": 0.1,
+    "noise_probability": 0.0,
+    "label_smoothing": 0.0,
+    "num_workers": 0,
+    "threads": 4,
+    "search_trials_per_task_prompt": 3,
+    "repeat_seeds": [
+      42,
+      123,
+      2026
+    ],
+    "emd_weight": 1.0
+  },
+  "validation_qwk": 0.580230957264477,
+  "validation": {
+    "n": 332,
+    "qwk": 0.580230957264477,
+    "mae": 0.26506024096385544,
+    "rmse": 0.5206576008754674,
+    "accuracy": 0.7379518072289156,
+    "within_one": 0.9969879518072289,
+    "confusion_matrix": [
+      [
+        108,
+        28,
+        0
+      ],
+      [
+        30,
+        137,
+        0
+      ],
+      [
+        1,
+        28,
+        0
+      ]
+    ],
+    "loss": 0.5978768080113882
+  },
+  "best_epoch": 3,
+  "optimizer_steps": 249,
+  "encoder_weight_change": 0.001253664493560791,
+  "seconds": 13.632079124450684,
+  "path": "E:\\Intelligent-Handwritten-Grading\\experiments\\soft-ordinal-20261103\\search\\p4_soft_ce_t19"
+}

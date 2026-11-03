@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "最新实验结果标签及项目版本",
+    "合成字体图片上传OCR及真实模型评分",
+    "修改后重新评分",
+    "批量评分",
+    "HTML报告标题表格图片完整加载"
+  ],
+  "fixture": "generated Segoe Print image, not real student handwriting"
+}

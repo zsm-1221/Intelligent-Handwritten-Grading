@@ -1,0 +1,14 @@
+{
+  "data\\processed\\prompt3\\excluded_test_duplicates.jsonl": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "data\\processed\\prompt3\\test.jsonl": "72e2e1fb9361519f2c24d36805e5ef1e7e32151b7ea1b1170401dc5f645a9b2b",
+  "data\\processed\\prompt3\\train.jsonl": "fc4986954c2dc8cbffa4b25793e00a80603f61c78d8b4456ba8a69d18e510fdf",
+  "data\\processed\\prompt3\\validation.jsonl": "5cd7bb0f311869ce016e4714c31a929cd04ad54f7493e457b0f3932d9b2aa623",
+  "data\\processed\\prompt4\\excluded_test_duplicates.jsonl": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "data\\processed\\prompt4\\test.jsonl": "69e01569a8787defb0abdf64de79028c047788f42a2aafc6ee35cfdfc5a532d0",
+  "data\\processed\\prompt4\\train.jsonl": "75b57b4940c9c6b731da9f762ca6fd57e4dad4b5945155350e51c2427e08ca71",
+  "data\\processed\\prompt4\\validation.jsonl": "5f58e6902b5d839460a1217ef0c331ecebd61f19e6ca1bca3c9e5909a2e39020",
+  "data\\processed\\split_manifest.json": "ca4614440da64934e1a97be58038299d057fea3c114d5ffc6ae0c7c9ccceaa61",
+  "models\\registry.json": "a82fab1e1bce42dff94d1a6a0d4edeeeba982daf2018e505059fd47be6c8e7fd",
+  "models\\prompt3\\20261030-023036-732586_p3_classification_repeat_clean_s42\\model.safetensors": "79c7f23008b000e87eba3212b1fede7ed6ac3d3fb793072b4ac148e7c75fde81",
+  "models\\prompt4\\20261030-023442-225812_p4_regression_repeat_clean_s42\\model.safetensors": "31bdad5bd51255d21cc23f51753660b56547b656accebf5a9c951f45e2b724aa"
+}

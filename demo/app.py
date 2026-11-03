@@ -68,6 +68,16 @@ def ui_batch(prompt,text,files):
     except Exception as exc:
         raise gr.Error(str(exc))
 
+def project_status():
+    import json
+    status_path = ROOT / "reports/release_summary.json"
+    status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {"release":"未安装实验汇总"}
+    registry = json.loads((ROOT / "models/registry.json").read_text(encoding="utf-8"))
+    return {"项目发布版本":status.get("release"),"搜索训练次数":status.get("search_fits"),
+            "三种子重复次数":status.get("seed_repeats"),"评分模型保持原部署版本":True,
+            "题目3评分模型":registry["3"]["version"],"题目4评分模型":registry["4"]["version"],
+            "实验结果":status.get("summary",[])}
+
 def build_app(public_demo=False):
     theme=gr.themes.Soft(primary_hue="teal",font=["Microsoft YaHei","Arial","sans-serif"],font_mono=["Consolas","monospace"])
     with gr.Blocks(title="英文手写简答题智能评分",theme=theme,css=CSS,js=JS,
@@ -108,6 +118,10 @@ def build_app(public_demo=False):
             batch_button = gr.Button("开始批量评分",variant="primary")
             table = gr.Dataframe(label="批量评分结果",interactive=False,wrap=True)
             batch_button.click(ui_batch,[prompt,batch_text,batch_files],table,api_name="grade_batch",concurrency_limit=1)
+        with gr.Tab("项目实验结果"):
+            gr.Markdown("### 最新项目版本：2026-11-03 软标签与序数损失实验\n\n已完成160次公平搜索训练、24次三种子重复和冻结后的测试评价。题目3验证集选择硬标签交叉熵，题目4选择软标签交叉熵；EMD没有稳定胜出。\n\n**本页评分继续使用原部署模型及复核阈值**。新增方法为独立研究结果，未自动替换模型；这些结果针对人工转录文本，不等于图片OCR后的端到端表现。")
+            experiment_status = gr.JSON(value=project_status(),label="实验结果与当前评分模型")
+            gr.Button("刷新实验信息").click(project_status,outputs=experiment_status,api_name="project_status")
         gr.Markdown("课程演示用途。评分模型由本项目训练，图片识别使用本地 TrOCR。图片识别有误时，请修改文本后重新评分；独立自采答案的最终成绩请由教师核验。")
     return app
 

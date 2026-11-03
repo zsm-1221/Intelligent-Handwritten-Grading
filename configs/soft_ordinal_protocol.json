@@ -1,0 +1,20 @@
+{
+  "groups": [
+    "hard_ce",
+    "soft_ce",
+    "hard_ce_emd",
+    "soft_ce_emd"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "candidate_table": "experiments/soft-ordinal-20261103/candidates.json",
+  "trials_per_prompt_group": 20,
+  "sampler": "Optuna RandomSampler; identical candidates for all groups",
+  "emd_weight": 1,
+  "target": "equal rater one-hot mixture; missing Score2 falls back to Score1",
+  "primary_metric": "validation QWK",
+  "deployment_policy": "retain existing registry and weights"
+}

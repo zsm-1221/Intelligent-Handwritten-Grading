@@ -4,6 +4,29 @@
 
 系统流程：英文题目与评分标准 + 学生英文答案 → 自主微调 DistilBERT 评分 → 验证集阈值判定教师复核；手写图片先由本地预训练 TrOCR 分行识别，支持手动纠正后重新评分。界面为中文。
 
+## 2026-11-03 最新完整成果
+
+已验证公网地址：[https://766367126f380a0b07.gradio.live](https://766367126f380a0b07.gradio.live)（本机推理临时分享，电脑需开机联网；原链接已失效）。
+
+- [最终中文项目报告（研究问题、方法、结果、误差和系统）](reports/final-20261103/最终项目报告.md)
+- [报告HTML阅读版](reports/final-20261103/最终项目报告.html)（下载该目录后用浏览器打开）
+- [15页PPT制作大纲](reports/final-20261103/PPT制作大纲.md) · [独立PPT配图与索引](reports/final-20261103/PPT图表/使用说明.md)
+- [四组消融汇总](reports/final-20261103/四组消融汇总.csv) · [全部三种子结果](experiments/soft-ordinal-20261103/comparison.csv)
+- 新增 Score1/Score2 等权软标签、Soft Cross Entropy、Ordinal EMD，完成每题每组20组公平候选（160次搜索训练）和24次三种子重复。共享Optuna RandomSampler候选表，无剪枝；不是TPE自适应搜索。
+- 全部验证选择冻结后才进行本轮测试；同一测试集此前已被评价，因此不是全新盲测。原划分和部署权重哈希核验未改变。
+- Prompt 4软标签CE测试QWK均值0.6722，硬标签CE为0.6018；EMD未稳定提升。验证选定方法是Prompt 3硬标签CE、Prompt 4软标签CE。原部署模型继续保留，不按测试结果替换。
+- 网页新增“项目实验结果”页，明确当前模型与研究版本；临时分享地址和最新验证结果见 [部署状态](docs/live-demo-status.md)。旧地址已经失效，不是永久托管。
+
+新增实验复现（需原固定划分及本地预训练资产）：
+
+```powershell
+python -m src.training.soft_ordinal --output experiments/soft-ordinal-20261103
+python scripts/build_final_delivery.py
+python -m pytest tests -q
+```
+
+本仓库不包含训练环境、原始学生答案或模型二进制。复现时先按原数据说明恢复固定划分与预训练资产；已归档实验目录含绝对本机路径与哈希用于审计，若在另一台机器重跑，请使用全新的output目录，避免与旧记录混淆。新报告生成脚本默认读取本轮归档结果。
+
 ## GitHub 版本与本地完整项目
 
 本仓库保存源码、配置、真实训练日志、固定划分清单、评价指标和验收截图。已在 RTX 5060 Ti 上真实微调两题的 DistilBERT，文本测试 QWK 分别为 **0.6859（题目3）**、**0.6790（题目4）**。
@@ -25,13 +48,13 @@ cd Intelligent-Handwritten-Grading
 .\.venv\Scripts\python.exe -X utf8 demo/app.py
 ```
 
-浏览器访问 <http://127.0.0.1:7860>。也可以双击项目根目录的 `启动评分系统.cmd` 自动打开网页，或执行 `scripts/start_demo.ps1`。网页启动不会触发训练，权重和预训练 OCR 都从项目内离线加载，不调用商业 API。
+本机浏览器访问 <http://127.0.0.1:7860>；公网使用本页顶部已验证的新链接。也可以双击项目根目录的 `启动评分系统.cmd` 自动打开网页，或执行 `scripts/start_demo.ps1`。网页启动不会触发训练，权重和预训练 OCR 都从项目内离线加载，不调用商业 API。
 
 使用顺序：选择题目 → 查看英文题目与完整评分标准 → 上传图片并识别评分 → 核对原图与 OCR → 修改识别文本后重新评分。也可切换到文本或批量评分标签。图片评分均提示教师核对 OCR；文本自动评分阈值不能当作图片域可靠性的证据。
 
 ## 数据来源与边界
 
-- ASAP-SAS：用户提供的 ZIP。题目与完整 rubric 从 `Data_Set_Descriptions.zip` 内 DOCX 提取；训练使用 `train_rel_2.tsv` 的 Score1，Score2 仅作人工一致性参考。两题满分均为 2。
+- ASAP-SAS：用户提供的 ZIP。题目与完整 rubric 从 `Data_Set_Descriptions.zip` 内 DOCX 提取；早期训练使用 `train_rel_2.tsv` 的 Score1；新增实验用 Score1/Score2 融合软标签。两题满分均为 2。
 - 官方测试：`public_leaderboard.tsv` 与 `public_leaderboard_solution.csv` 按 `(EssaySet, Id)` 严格匹配，只有确有分数的记录进入评分评价。没有分数的其他记录不伪造标签。
 - Handwritten-ASAP-SAS：185 张题目 3 图片、165 张题目 4 图片；349 张可匹配官方分数，1 张不关联评分。题目 3 的正常参考转录 175 条，其余为转录异常／越界；题目 4 没有附带已核验参考转录，不报告真实 CER/WER。
 - OCR 预处理开发固定使用题目 3 正常参考样本按 ID 排序的前 15 张（含分行调试样例 6809）；其余 160 张用于主要 OCR 指标。全部 175 张的结果仅作附加描述性汇总。OCR 开发图与参考文本不进入评分模型训练或调参。
@@ -79,7 +102,7 @@ TrOCR 大文件也支持 `scripts/resumable_download.py trocr` 断点分段获�
 .\.venv\Scripts\python.exe -X utf8 -m pytest -q
 ```
 
-训练参数统一在 `configs/training.json`。正式流程先分别训练两题的分类／回归，再每题每种任务进行 3 个 Optuna trial，搜索学习率、batch size、epoch、weight decay、dropout、max length，优化验证 QWK。选出配置后，用三个随机种子对比原始训练与 OCR 噪声增强。每次实验新建时间戳目录，不覆盖权重或历史记录。`--pilot` 只做 8 个更新步骤来测硬件与耗时，不能当作正式结果。
+训练参数统一在 `configs/training.json`。早期历史流程先分别训练两题的分类／回归，再每题每种任务进行 3 个 Optuna trial，搜索学习率、batch size、epoch、weight decay、dropout、max length，优化验证 QWK。选出配置后，用三个随机种子对比原始训练与 OCR 噪声增强。每次实验新建时间戳目录，不覆盖权重或历史记录。`--pilot` 只做 8 个更新步骤来测硬件与耗时，不能当作正式结果。
 
 针对性改进另以三种种子运行：训练集频数决定的平方根逆频率权重，分类时额外加入期望分数的 ordinal MSE（权重 0.3），回归时使用加权 MSE。对照为基础模型、OCR 噪声模型、OCR 噪声＋针对性损失模型；该消融只能评估组合改进，不单独归因每个损失项。
 
@@ -124,6 +147,3 @@ print(result["score"], result["confidence"], result["needs_review"])
 
 目前只支持题目 3、4。预训练 TrOCR 没有在本项目微调；项目的自主深度学习训练重点是 DistilBERT 评分模型。数据域、独立自采最终测试缺失、OCR 错误和长答案截断等局限会在真实实验报告中明确列出。
 
-## Hugging Face Spaces 部署入口
-
-已增加根目录 app.py、CPU 固定依赖及 Gradio SDK 元数据，见 [部署说明](docs/spaces-deployment.md)。真实权重部署包已完成本机 CPU 实测。本次线上创建被 Hugging Face 的 PRO 订阅要求（HTTP 402）阻止，用户选择暂不开通，因此尚未上线。
