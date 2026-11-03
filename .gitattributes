@@ -5,4 +5,5 @@
 *.ps1 text eol=crlf
 *.cmd text eol=crlf
 *.png binary
-experiments/soft-ordinal-20261103/selection_frozen.json -text
+experiments/soft-ordinal-20261103/selection_frozen.json -text -eol
+
